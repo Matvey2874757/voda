@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "vodateleport",
+  "version": "${version}",
+  "name": "Voda Teleport Client Mod",
+  "description": "Educational Fabric client mod: teleport packet simulation for local testing / servers without movement checks.",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "sources": "https://example.invalid/voda-teleport"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.vodateleport.VodaTeleportClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
