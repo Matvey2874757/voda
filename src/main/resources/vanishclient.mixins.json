@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.example.vanishclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HeldItemRendererMixin",
+    "PlayerEntityRendererMixin",
+    "ClientConnectionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
