@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "teleportmod",
+  "version": "${version}",
+  "name": "Teleport Utility Mod",
+  "description": "Client utility GUI for coordinate/player teleport commands and saved waypoints.",
+  "authors": ["voda"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.voda.teleportmod.TeleportModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1"
+  }
+}
